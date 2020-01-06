@@ -14,8 +14,7 @@ class Map extends StatelessWidget {
       options: MapOptions(zoom: 5.0, center: new LatLng(28.6139, 77.2090)),
       layers: [
         new TileLayerOptions(
-          urlTemplate: "https://api.tiles.mapbox.com/v4/"
-              "{id}/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoidW1lc2h5NzkwIiwiYSI6ImNrNHUzYWxrejFwamUzbHAxMjIzamgyeW8ifQ.DI7OwX0tkbKRlKROPlR_EQ",
+          urlTemplate: "https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoidW1lc2h5NzkwIiwiYSI6ImNrNHUzYWxrejFwamUzbHAxMjIzamgyeW8ifQ.DI7OwX0tkbKRlKROPlR_EQ",
           additionalOptions: {
             'id': 'mapbox.streets',
             'accessToken':
